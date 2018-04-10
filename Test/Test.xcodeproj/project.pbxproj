@@ -10,10 +10,10 @@
 		22A2148F207C82A9009D0729 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A2148E207C82A9009D0729 /* AppDelegate.swift */; };
 		22A21491207C82A9009D0729 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A21490207C82A9009D0729 /* ViewController.swift */; };
 		22A21494207C82A9009D0729 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A21492207C82A9009D0729 /* Main.storyboard */; };
-		22A21496207C82A9009D0729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A21495207C82A9009D0729 /* Assets.xcassets */; };
 		22A21499207C82A9009D0729 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A21497207C82A9009D0729 /* LaunchScreen.storyboard */; };
 		22A214A4207C82A9009D0729 /* TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A214A3207C82A9009D0729 /* TestTests.swift */; };
 		22A214AF207C82A9009D0729 /* TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A214AE207C82A9009D0729 /* TestUITests.swift */; };
+		22A214BD207C8F33009D0729 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A214BC207C8F33009D0729 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +38,6 @@
 		22A2148E207C82A9009D0729 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22A21490207C82A9009D0729 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		22A21493207C82A9009D0729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		22A21495207C82A9009D0729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22A21498207C82A9009D0729 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		22A2149A207C82A9009D0729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		22A2149F207C82A9009D0729 /* TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +46,7 @@
 		22A214AA207C82A9009D0729 /* TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22A214AE207C82A9009D0729 /* TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestUITests.swift; sourceTree = "<group>"; };
 		22A214B0207C82A9009D0729 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A214BC207C8F33009D0729 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +100,8 @@
 				22A2148E207C82A9009D0729 /* AppDelegate.swift */,
 				22A21490207C82A9009D0729 /* ViewController.swift */,
 				22A21492207C82A9009D0729 /* Main.storyboard */,
-				22A21495207C82A9009D0729 /* Assets.xcassets */,
 				22A21497207C82A9009D0729 /* LaunchScreen.storyboard */,
+				22A214BC207C8F33009D0729 /* Assets.xcassets */,
 				22A2149A207C82A9009D0729 /* Info.plist */,
 			);
 			path = Test;
@@ -233,7 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22A21499207C82A9009D0729 /* LaunchScreen.storyboard in Resources */,
-				22A21496207C82A9009D0729 /* Assets.xcassets in Resources */,
+				22A214BD207C8F33009D0729 /* Assets.xcassets in Resources */,
 				22A21494207C82A9009D0729 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
