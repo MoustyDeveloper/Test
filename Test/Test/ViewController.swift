@@ -20,6 +20,9 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func clickbtn(_ sender: UIButton) {
+        sender.setImage(UIImage(named: "xplayer1"), for: .normal)
+    }
+    
 }
 
